@@ -1,3 +1,19 @@
-.App {
-  text-align: center;
+.top {
+  background: url('./images/bg_stripes.svg');
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 50%;
+}
+
+.bottom {
+  background: url('./images/ground.svg');
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+}
+
+.lady {
+  position: absolute;
 }

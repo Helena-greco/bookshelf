@@ -2,7 +2,7 @@
 
 This app consists of a bookshelf where the user can organize books and order them based on some characteristic of the books. It should be possible to access both from a computer and a cell phone.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

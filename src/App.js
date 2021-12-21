@@ -3,9 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Bookshelf</h1>
-    </div>
+    <main>
+      <div className='top'>
+        <h1>Top</h1>
+      </div>
+      <div className='bottom'>
+        <h1>Bottom</h1>
+      </div>
+    </main>
   );
 }
 
