@@ -1,19 +1,22 @@
 .top {
-  background: url('./images/bg_stripes.svg');
-  width: 100%;
+  background-image: url('./images/bg_stripes.svg');
+  height: 50%;
   position: absolute;
   top: 0px;
-  height: 50%;
+  width: 100%;
 }
 
 .bottom {
-  background: url('./images/ground.svg');
-  width: 100%;
-  position: absolute;
+  background-image: url('./images/ground.svg');
   bottom: 0px;
   height: 50%;
-}
+  position: absolute;
+  width: 100%;
+} 
 
 .lady {
-  position: absolute;
+  height: 350px;
+  position: fixed;
+  bottom: 0px;
+  left: 1%;
 }

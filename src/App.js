@@ -1,15 +1,13 @@
 import React from 'react';
+import lady from './images/lady.svg';
+import Background from './components/Background';
 import './App.css';
 
 function App() {
   return (
     <main>
-      <div className='top'>
-        <h1>Top</h1>
-      </div>
-      <div className='bottom'>
-        <h1>Bottom</h1>
-      </div>
+      <Background />
+      <img src={lady} alt="lady" className="lady"/>
     </main>
   );
 }
